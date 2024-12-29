@@ -1,120 +1,104 @@
-SQL Data Analysis Portfolio Projects
+# SQL Data Analysis Portfolio Projects
 
-Overview
+## Overview
 
 This repository showcases two SQL projects designed to demonstrate expertise in data cleaning and exploratory data analysis (EDA). Each project involves working with realistic datasets to solve problems and extract actionable insights. These projects highlight proficiency in SQL queries, data manipulation, and analytical thinking.
 
-Projects
+---
 
-1. Data Cleaning Project
+## Projects
 
-File: Portfolio Project - Data Cleaning.sql
+### 1. **Data Cleaning Project**
 
-Objective:
+#### File: `Portfolio Project - Data Cleaning.sql`
+
+#### Objective:
 
 To clean and prepare a raw dataset for further analysis. The focus is on identifying and resolving data quality issues such as:
 
-Missing or null values
+- Missing or null values
+- Duplicate records
+- Standardizing formats
+- Handling inconsistent data entries
 
-Duplicate records
+#### Key Steps:
 
-Standardizing formats
+- Identified and removed duplicate rows.
+- Handled missing values using appropriate strategies such as imputation or removal.
+- Standardized inconsistent data formats (e.g., dates, strings).
+- Ensured referential integrity in relational data.
 
-Handling inconsistent data entries
+#### Outcomes:
 
-Key Steps:
+- A clean and well-structured dataset, ready for downstream analytical tasks.
 
-Identified and removed duplicate rows.
+---
 
-Handled missing values using appropriate strategies such as imputation or removal.
+### 2. **Exploratory Data Analysis (EDA) Project**
 
-Standardized inconsistent data formats (e.g., dates, strings).
+#### File: `Portfolio Project - Exploratory Data Analysis.sql`
 
-Ensured referential integrity in relational data.
-
-Outcomes:
-
-A clean and well-structured dataset, ready for downstream analytical tasks.
-
-2. Exploratory Data Analysis (EDA) Project
-
-File: Portfolio Project - Exploratory Data Analysis.sql
-
-Objective:
+#### Objective:
 
 To analyze and extract meaningful insights from a dataset. The focus is on using SQL to:
 
-Explore data distributions and relationships.
+- Explore data distributions and relationships.
+- Identify trends, patterns, and anomalies.
+- Generate summary statistics.
+- Create visualizations (if applicable) through SQL-compatible tools.
 
-Identify trends, patterns, and anomalies.
+#### Key Steps:
 
-Generate summary statistics.
+- Calculated key metrics such as averages, counts, and distributions.
+- Segmented data by relevant dimensions (e.g., time, categories).
+- Identified correlations and trends within the dataset.
+- Provided actionable recommendations based on findings.
 
-Create visualizations (if applicable) through SQL-compatible tools.
+#### Outcomes:
 
-Key Steps:
+- A detailed understanding of the dataset, with insights ready to inform decision-making.
 
-Calculated key metrics such as averages, counts, and distributions.
+---
 
-Segmented data by relevant dimensions (e.g., time, categories).
+## Tools & Technologies
 
-Identified correlations and trends within the dataset.
+- **SQL:** Core query language used for data manipulation and analysis.
+- **Database Management Systems:** Compatible with MySQL, PostgreSQL, and Microsoft SQL Server.
 
-Provided actionable recommendations based on findings.
+---
 
-Outcomes:
+## Data Files
 
-A detailed understanding of the dataset, with insights ready to inform decision-making.
+https://www.kaggle.com/datasets/swaptr/layoffs-2022
 
-Tools & Technologies
+---
 
-SQL: Core query language used for data manipulation and analysis.
+## How to Use
 
-Database Management Systems: Compatible with MySQL, PostgreSQL, and Microsoft SQL Server.
+1. Clone this repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Open the SQL files in your preferred SQL editor.
+3. Run the queries step-by-step to observe the outputs.
+4. Use the cleaned dataset or insights for further analysis.
 
-Data Files
+---
 
-Data Cleaning Project Dataset
+## Future Work
 
-Exploratory Data Analysis Dataset
+- Expand these projects to include advanced techniques such as:
+  - Window functions for complex aggregations.
+  - Stored procedures and functions.
+  - Integration with visualization tools like Power BI or Tableau.
+- Add additional datasets to explore a wider range of scenarios.
 
-How to Use
+---
 
-Clone this repository:
+## Author
 
-git clone <repository-url>
+**Prathamesh Jalgaonkar**
 
-Open the SQL files in your preferred SQL editor.
-
-Run the queries step-by-step to observe the outputs.
-
-Use the cleaned dataset or insights for further analysis.
-
-Future Work
-
-Expand these projects to include advanced techniques such as:
-
-Window functions for complex aggregations.
-
-Stored procedures and functions.
-
-Integration with visualization tools like Power BI or Tableau.
-
-Add additional datasets to explore a wider range of scenarios.
-
-Author
-
-Prathamesh Jalgaonkar
-
-Passionate about leveraging data to drive insights and solutions.
-
-Proficient in SQL, data analysis, and visualization tools.
-
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-
-Special thanks to open-source datasets and tools that facilitated these projects.
+- Passionate about leveraging data to drive insights and solutions.
+- Proficient in SQL, data analysis, and visualization tools.
 
