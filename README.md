@@ -67,6 +67,40 @@ To analyze and extract meaningful insights from a dataset. The focus is on using
 
 ---
 
+## Dataset Details
+
+### Layoffs 2022 Dataset
+
+This dataset provides information about company layoffs globally since the onset of the COVID-19 pandemic (March 11, 2020). Below is a brief overview of the dataset:
+
+#### **Columns:**
+
+1. **Company:** Name of the company that conducted layoffs.
+2. **Location:** Headquarters or location where layoffs occurred.
+3. **Industry:** The sector in which the company operates (e.g., Finance, Retail).
+4. **# Total\_Laid\_Off:** Total number of employees laid off by the company.
+5. **% Laid Off:** Percentage of the workforce affected by layoffs.
+6. **Date:** Date on which the layoffs occurred or were announced.
+7. **Stage:** Funding stage or growth stage of the company (e.g., Series A, Post-IPO).
+8. **Country:** Country where the company is headquartered or layoffs were reported.
+9. **# Funds\_Raised:** Total funds raised by the company (in millions) prior to layoffs.
+
+#### **Insights:**
+
+- Layoffs are concentrated in tech hubs such as SF Bay Area and New York City.
+- The United States accounts for 65% of layoffs in the dataset.
+- Companies in industries like Finance, Retail, and Media faced significant layoffs.
+- Many well-funded companies also conducted layoffs, indicating broader economic pressures.
+
+#### **Use Cases:**
+
+- Trend analysis over time.
+- Correlation studies between funding, layoffs, and company stages.
+- Geographical and industrial impact assessments.
+- Predictive modeling for potential future layoffs.
+
+---
+
 ## Data Files
 
 https://www.kaggle.com/datasets/swaptr/layoffs-2022
