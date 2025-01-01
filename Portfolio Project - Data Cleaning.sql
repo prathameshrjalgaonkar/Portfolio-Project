@@ -148,5 +148,3 @@ FROM layoffs_staging2;
 ALTER TABLE layoffs_staging2
 DROP COLUMN row_num;
 
-
---Explo
